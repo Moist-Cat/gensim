@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  gensim:
+    container_name: gensim_test
+    image: gensim
+    build: .
+    command: python -m gensim livetest
+    ports:
+      - "14548:14548"
+    environment:
+      - GENSIM_SETTINGS_MODULE=gensim.conf.dev
+      - FLASK_DEBUG=1
+      - GENSIM_LIVE_TEST=

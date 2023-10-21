@@ -1,0 +1,8 @@
+# clean code
+pytest
+pylint
+black
+# tests
+requests
+# cicd
+jaypore_ci

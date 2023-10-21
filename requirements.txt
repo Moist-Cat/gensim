@@ -1,0 +1,6 @@
+sqlalchemy>=1.4.*
+flask>=1.1.*
+pyaml
+
+# flask classful with support for werkzeug-2.2
+git+https://github.com/superseed/flask-classful.git@werkzeug-2.2

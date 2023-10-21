@@ -1,0 +1,12 @@
+# Relationships are symetric
+#
+# Structure:
+#
+# from:
+#   to_1: value_1
+#   to_2: value_2
+#   ...
+#   to_n: value_n
+# 
+# values are natural numbers
+#

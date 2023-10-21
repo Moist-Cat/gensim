@@ -1,0 +1,2 @@
+A welcome message is yet to be written... maybe we should add a short tutorial
+too.

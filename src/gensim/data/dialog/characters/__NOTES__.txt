@@ -1,0 +1,25 @@
+# What
+
+Here are the main characters' dialog. If there is something to port from
+eratohoTW it will be in an ascii text file with a bunch of lines of dialog
+splattered all over the place. These are extracted from the source files
+with the same name.
+
+Currently porting:
+Hong   moist (me)
+    - first file has been divided in events
+
+
+# How (Porting dialog)
+1. Grab a source file (.ERB)
+2. Get some dialog
+3. Divide it in chunks and mark each possible event (or type) with a "#"
+4. Put in in a text file (name it according the snek_case rules)
+5. Create an event (with requirements, effects, etc)
+
+# Regexes
+> playername
+%s/%CALNAME:MASTER%/{player}
+
+> remove 3rd person support
+%s/%PARSE("\(.\{-}\)"[,1-9]*)%/\1/g

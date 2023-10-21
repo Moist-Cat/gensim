@@ -1,0 +1,12 @@
+# Stats belonging to the world in general
+# It is implementing as a set of stats belonging to the "Alice Liddell" character
+#
+# Structure:
+#   stat_name: stat_value
+#
+# name's a string and value is an integer (I haven't found any use for non-positive integers
+# so but try to avoid using these if you can)
+# MON 2000 1 3 0 0
+#time: 946875600
+time: 946893600
+weather: 0

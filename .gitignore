@@ -1,0 +1,23 @@
+# python cache
+__pycache__/
+
+# packaging
+env/*
+dist/*
+build/*
+**/*.egg-info/*
+
+# logs
+*.log
+*.error
+
+# data
+*.sqlite3*
+*.gsav
+*.timestamp
+
+# vim
+*~
+*.swp
+*.un~
+*.swo

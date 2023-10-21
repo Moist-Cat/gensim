@@ -1,0 +1,16 @@
+> add hook for hong_work so we have flavor text before an after she works --
+> location requirement
+
+> available cmds api endpoint
+
+> add migrations
+>   hash classes
+>   dump all the hashes in a json with the class name
+>   pickle {cls_name: cls} for every class
+>   watch any change in the hash
+>   if something changed. give the old class name using the hash, retrieve the
+>   class from the pickled file, delete the old object using the class' data
+>   and add the new object
+>
+>   this doesn't work for relationships and such; use get_or_create for those,
+>   create another migrations handler for these

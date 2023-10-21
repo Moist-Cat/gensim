@@ -1,0 +1,9 @@
+## structure
+# area:
+#   
+#   origin:
+#     desination:
+#       terrain: TERR_TYPE
+#       distance: int
+#
+## we will withstand the overhead of an if in order to have defaults
